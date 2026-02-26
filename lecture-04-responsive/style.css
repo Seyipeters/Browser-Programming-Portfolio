@@ -154,6 +154,38 @@ nav a:focus {
     outline: 2px solid #764ba2;
 }
 
+/* Dark theme mode */
+body.dark-theme {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+}
+
+body.dark-theme header {
+    background: linear-gradient(135deg, #444 0%, #222 100%);
+}
+
+body.dark-theme section {
+    background: #2a2a2a;
+    color: #e0e0e0;
+}
+
+body.dark-theme .project-card {
+    background: linear-gradient(135deg, #333 0%, #222 100%);
+    color: #e0e0e0;
+}
+
+body.dark-theme nav ul {
+    background-color: #222;
+}
+
+body.dark-theme nav a {
+    color: #e0e0e0;
+}
+
+body.dark-theme footer {
+    background-color: #111;
+}
+
 .projects {
     margin: 30px 0;
 }
