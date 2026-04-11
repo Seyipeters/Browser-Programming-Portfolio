@@ -169,7 +169,8 @@ body.dark-theme section {
     color: #e0e0e0;
 }
 
-body.dark-theme .project-card {
+body.dark-theme .project-card,
+body.dark-theme .skill-card {
     background: linear-gradient(135deg, #333 0%, #222 100%);
     color: #e0e0e0;
 }
@@ -220,6 +221,29 @@ body.dark-theme footer {
 
 .project-link:focus {
     outline: 2px solid #764ba2;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.skill-card {
+    background: linear-gradient(135deg, #667eea 0%, #89b1ff 100%);
+    color: white;
+    padding: 18px 16px;
+    border-radius: 12px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 10px 18px rgba(102, 126, 234, 0.2);
+}
+
+.last-updated {
+    margin-top: 20px;
+    font-size: 0.95rem;
+    color: #999;
 }
 
 img {
