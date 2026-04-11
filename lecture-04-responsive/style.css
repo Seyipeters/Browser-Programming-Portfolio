@@ -246,8 +246,23 @@ body.dark-theme footer {
     color: #999;
 }
 
+.portfolio-intro {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.portfolio-intro figure {
+    flex: 1;
+}
+
+.portfolio-intro #about {
+    flex: 1;
+}
+
 img {
-    max-width: 40%;
+    width: 100%;
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
@@ -304,6 +319,9 @@ a:focus {
     nav a { display: block; padding: 12px; }
     header { padding: 30px 20px; }
     header h1 { font-size: 1.8rem; }
+    .portfolio-intro {
+        flex-direction: column;
+    }
 }
 
 /* Figure styling */
