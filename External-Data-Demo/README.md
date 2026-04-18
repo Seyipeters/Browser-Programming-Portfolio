@@ -46,14 +46,3 @@ The JavaScript file includes detailed comments explaining:
 - Why we check response.ok
 - Why we use try/catch
 
-## Browser Compatibility
-Works in all modern browsers that support:
-- ES6+ (async/await)
-- Fetch API
-- ES6 template literals
-
-## Author
-Peter Mayowa Omole
-
-## Date
-April 2026
