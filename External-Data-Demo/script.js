@@ -143,4 +143,3 @@ function displayUserData(user) {
     // Update the DOM with the data
     dataContainer.innerHTML = userHTML;
 }
-
