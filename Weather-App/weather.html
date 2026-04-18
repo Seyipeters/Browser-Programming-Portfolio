@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather App — Peter Mayowa Omole</title>
+</head>
+<body>
+
+  <a href="#main">Skip to content</a>
+
+  <header>
+    <h1>Weather App</h1>
+    <p>Current weather data from a public API using the same portfolio styling.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="../lecture-04-responsive/portfolio.html">Back to Portfolio</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+    <section>
+      <h2>Weather App</h2>
+      <p>Select a city to load the current weather.</p>
+
+      <div class="weather-controls">
+        <button class="weather-btn" data-city="Kuopio" data-lat="62.8924" data-lon="27.6770">Kuopio</button>
+        <button class="weather-btn" data-city="Helsinki" data-lat="60.1699" data-lon="24.9384">Helsinki</button>
+      </div>
+
+      <div id="weatherBox" class="weather-box">
+        <p><strong>City:</strong> <span id="city">-</span></p>
+        <p><strong>Temperature:</strong> <span id="temperature">-</span></p>
+        <p><strong>Wind Speed:</strong> <span id="wind">-</span></p>
+      </div>
+
+      <pre id="output" class="weather-output"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Contact & Social Links</h2>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/peteromole" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/Seyipeters" target="_blank">GitHub</a></li>
+    </ul>
+  </footer>
+
+  <script src="weather.js"></script>
+</body>
+</html>
